@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Copyright>Copyright mParticle © 2018</Copyright>
+    <Version>1.0.0</Version>
+    <Product>mParticle .NET Standard Library</Product>
+    <Company>mParticle Inc.</Company>
+    <Authors>mParticle</Authors>
+    <PackageProjectUrl>https://github.com/mParticle/mparticle-uwp-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mParticle/mparticle-uwp-sdk</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>mParticle HTTP API Client</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="[10.0.1,11)" />
+  </ItemGroup>
+</Project>
