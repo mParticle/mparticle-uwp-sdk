@@ -2,8 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <Copyright>Copyright mParticle © 2018</Copyright>
-    <Version>1.0.0</Version>
+    <Copyright>Copyright mParticle 2018</Copyright>
+    <Version>1.0.1</Version>
     <Product>mParticle .NET Standard Library</Product>
     <Company>mParticle Inc.</Company>
     <Authors>mParticle</Authors>
@@ -11,6 +11,8 @@
     <RepositoryUrl>https://github.com/mParticle/mparticle-uwp-sdk</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>mParticle HTTP API Client</Description>
+    <PackageIconUrl>https://static.mparticle.com/sdk/nuget_logo.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/mParticle/mparticle-uwp-sdk</PackageLicenseUrl>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
