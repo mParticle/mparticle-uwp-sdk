@@ -49,12 +49,10 @@ namespace mParticle.Sdk.UWP
             identityApi.AddDeviceIdentities(identities);
             Assert.IsNotNull(identities[IdentityType.DeviceApplicationStamp]);
             Assert.AreEqual(identityApi.GenerateDasIfNeeded(), identities[IdentityType.DeviceApplicationStamp]);
-
-            //TODO: Uncomment these when server API is deployed
-            //Assert.IsNotNull(identities[IdentityType.MicrosoftAdvertisingId]);
-            //Assert.AreEqual(DeviceInfoBuilder.QueryAdvertisingId(), identities[IdentityType.MicrosoftAdvertisingId]);
-            //Assert.IsNotNull(identities[IdentityType.MicrosoftPublisherId]);
-            //Assert.AreEqual(DeviceInfoBuilder.QueryPublisherId(), identities[IdentityType.MicrosoftPublisherId]);
+            Assert.IsNotNull(identities[IdentityType.MicrosoftAdvertisingId]);
+            Assert.AreEqual(DeviceInfoBuilder.QueryAdvertisingId(), identities[IdentityType.MicrosoftAdvertisingId]);
+            Assert.IsNotNull(identities[IdentityType.MicrosoftPublisherId]);
+            Assert.AreEqual(DeviceInfoBuilder.QueryPublisherId(), identities[IdentityType.MicrosoftPublisherId]);
         }
 
         [TestMethod]

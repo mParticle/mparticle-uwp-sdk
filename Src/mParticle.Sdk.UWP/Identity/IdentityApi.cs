@@ -202,9 +202,8 @@ namespace mParticle.Sdk.UWP
         internal void AddDeviceIdentities(Identities identities)
         {
             identities[IdentityType.DeviceApplicationStamp] = GenerateDasIfNeeded();
-            //TODO: Uncomment these when server API is deployed
-            //identities[IdentityType.MicrosoftAdvertisingId] = DeviceInfoBuilder.QueryAdvertisingId();
-            //identities[IdentityType.MicrosoftPublisherId] = DeviceInfoBuilder.QueryPublisherId();
+            identities[IdentityType.MicrosoftAdvertisingId] = DeviceInfoBuilder.QueryAdvertisingId();
+            identities[IdentityType.MicrosoftPublisherId] = DeviceInfoBuilder.QueryPublisherId();
         }
 
         internal string GenerateDasIfNeeded()
