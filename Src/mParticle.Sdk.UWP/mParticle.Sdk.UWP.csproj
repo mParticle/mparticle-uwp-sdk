@@ -10,10 +10,10 @@
     <RootNamespace>mParticle.Sdk.UWP</RootNamespace>
     <AssemblyName>mParticle.Sdk.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>mParticle Inc.</Authors>
     <Description>mParticle Client SDK for UWP apps</Description>
-    <Copyright>mParticle 2018</Copyright>
+    <Copyright>mParticle 2019</Copyright>
     <PackageLicenseUrl>https://github.com/mParticle/mparticle-uwp-sdk</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mParticle/mparticle-uwp-sdk</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mParticle/mparticle-uwp-sdk</RepositoryUrl>
