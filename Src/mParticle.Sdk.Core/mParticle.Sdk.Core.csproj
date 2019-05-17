@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <Copyright>Copyright mParticle 2019</Copyright>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Product>mParticle .NET Standard Library</Product>
     <Company>mParticle Inc.</Company>
     <Authors>mParticle</Authors>

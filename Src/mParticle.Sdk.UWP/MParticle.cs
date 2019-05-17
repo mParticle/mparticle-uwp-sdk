@@ -15,7 +15,7 @@ namespace mParticle.Sdk.UWP
     /// </summary>
     public class MParticle
     {
-        public const string SdkVersion = "1.0.2";
+        public const string SdkVersion = "1.0.3";
         private static volatile MParticle instance;
         private static readonly object mutex = new object();
         private readonly SessionManager sessionManager;

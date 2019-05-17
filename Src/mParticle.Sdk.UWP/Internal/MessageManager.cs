@@ -57,7 +57,7 @@ namespace mParticle.Sdk.UWP
                 ClientMpId = MParticle.Instance.Identity.CurrentUser?.Mpid,
                 DeviceApplicationStamp = Guid.Parse(persistenceManager.DeviceApplicationStamp),
                 Debug = MParticle.Instance.Options.DevelopmentMode,
-               
+                SdkVersion = MParticle.SdkVersion
             };
             var user = MParticle.Instance.Identity.CurrentUser;
             if (user != null)
