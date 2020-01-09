@@ -13,7 +13,6 @@ namespace mParticle.Sdk.Core.Dto.Events
         Yahoo = 6,
         Email = 7,
         FacebookCustomAudienceId = 9,
-
         Other2 = 10,
         Other3 = 11,
         Other4 = 12,
