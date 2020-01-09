@@ -34,7 +34,7 @@ namespace mParticle.Sdk.Core.Dto.Identity
         [EnumMember(Value = "facebook_custom_audience_id")]
         FacebookCustomAudienceId = 9,
 
-        [EnumMember(Value="roku_aid")]
+        [EnumMember(Value = "roku_aid")]
         RokuAid = 10,
 
         [EnumMember(Value = "android_aaid")]
@@ -65,6 +65,48 @@ namespace mParticle.Sdk.Core.Dto.Identity
         MicrosoftAdvertisingId = 19,
 
         [EnumMember(Value = "microsoft_publisher_id")]
-        MicrosoftPublisherId = 20
+        MicrosoftPublisherId = 20,
+
+        [EnumMember(Value = "fire_aid")]
+        FireAdvertisingId = 21,
+
+        [EnumMember(Value = "other2")]
+        Other2 = 22,
+
+        [EnumMember(Value = "other3")]
+        Other3 = 23,
+
+        [EnumMember(Value = "other4")]
+        Other4 = 24,
+
+        [EnumMember(Value = "alias")]
+        Alias = 25,
+
+        [EnumMember(Value = "other5")]
+        Other5 = 26,
+
+        [EnumMember(Value = "other6")]
+        Other6 = 27,
+
+        [EnumMember(Value = "other7")]
+        Other7 = 28,
+
+        [EnumMember(Value = "other8")]
+        Other8 = 29,
+
+        [EnumMember(Value = "other9")]
+        Other9 = 30,
+
+        [EnumMember(Value = "other10")]
+        Other10 = 31,
+
+        [EnumMember(Value = "mobile_number")]
+        MobileNumber = 32,
+
+        [EnumMember(Value = "phone_number_2")]
+        PhoneNumber2 = 33,
+
+        [EnumMember(Value = "phone_number_3")]
+        PhoneNumber3 = 34,
     }
 }
