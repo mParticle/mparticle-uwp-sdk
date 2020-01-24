@@ -2,8 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <Copyright>Copyright mParticle 2019</Copyright>
-    <Version>1.0.3</Version>
+    <Copyright>Copyright mParticle 2020</Copyright>
+    <Version>1.1.0</Version>
     <Product>mParticle .NET Standard Library</Product>
     <Company>mParticle Inc.</Company>
     <Authors>mParticle</Authors>
